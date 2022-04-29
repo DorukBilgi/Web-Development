@@ -67,7 +67,7 @@ namespace Stringss
                 Console.WriteLine(item);
             }
 
-            string city2 = "›stanbul";
+            string city2 = "√ùstanbul";
             string result = city + city2;
 
             Console.WriteLine(String.Format("{0}{1}", city, city2));
