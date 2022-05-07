@@ -28,7 +28,7 @@ namespace Classes
             //Declare type 2 for property in class
             Customer customer2 = new Customer
             {
-               City = "›stanbul" , ID = 2 ,FirstName = "Tan",LastName = "Bilgi"  // ctrl + space
+               City = "√ùstanbul" , ID = 2 ,FirstName = "Tan",LastName = "Bilgi"  // ctrl + space
             };
 
             Console.WriteLine(customer2.FirstName); // run "get" block of property
