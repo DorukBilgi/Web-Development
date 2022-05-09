@@ -30,11 +30,11 @@ namespace Arrays
             //2 dimension array
             string[,] regions = new string[5, 3] //7 row,3 column
             {
-                { "İstanbul", "İzmir", "Balıkesir" },
-                { "Ankara", "Konya", "Kırıkkale" },
+                { "Ãstanbul", "Ãzmir", "BalÃ½kesir" },
+                { "Ankara", "Konya", "KÃ½rÃ½kkale" },
                 { "Antalya", "Adana", "Mersin" },
                 { "Rize", "Trabzon", "Samsun" },
-                { "İzmir", "Muğla", "Manisa" }
+                { "Ãzmir", "MuÃ°la", "Manisa" }
 
             };
 
