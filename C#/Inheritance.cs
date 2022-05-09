@@ -34,9 +34,9 @@ namespace Inheritance
         public string LastName { get; set; }
     }
 
-    //Interface'ten farkl˝ olarak -> class Customer : Person, Person2 yazamay˝z. Bir tane B¸y¸k Bal˝k olmal˝. Ama birden fazla implementasyon yapabiliriz.
-    //Inheritance ˆnce yaz˝l˝r. Interface devam˝na yazabilirsin.
-    //Interfaceler daha mant˝kl˝. Abstract kullan˝rken Inheritance kullan˝lmal˝.
+    //Interface'ten farkl√Ω olarak -> class Customer : Person, Person2 yazamay√Ωz. Bir tane B√ºy√ºk Bal√Ωk olmal√Ω. Ama birden fazla implementasyon yapabiliriz.
+    //Inheritance √∂nce yaz√Ωl√Ωr. Interface devam√Ωna yazabilirsin.
+    //Interfaceler daha mant√Ωkl√Ω. Abstract kullan√Ωrken Inheritance kullan√Ωlmal√Ω.
 
     class Customer : Person // Person is big fish. You can access to Person's methods. 
     {
