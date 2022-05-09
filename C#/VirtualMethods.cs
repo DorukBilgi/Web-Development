@@ -34,7 +34,7 @@ namespace VirtualMethods
 
         class SqlServer : DataBase // Inheritance
         {
-            public override void Add() // virtual kullandýk fakat override edebiliriz bu sekilde.
+            public override void Add() // virtual kullandÃ½k fakat override edebiliriz bu sekilde.
             {
                 Console.WriteLine("Added by Sql Code");
                 //base.Add();
