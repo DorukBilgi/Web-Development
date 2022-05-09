@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Recap_Demo_1
+namespace Recap_Demo_1 // Chequerboard
 {
     public partial class Form1 : Form //inheritance
     {
