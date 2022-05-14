@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using AccessModifiers;// C/C++ dilinde .h file eklemek gibi düþünülebilir.
+using AccessModifiers;// C/C++ dilinde .h file eklemek gibi dÃ¼Ã¾Ã¼nÃ¼lebilir.
 
 namespace AccessModifiersDemo
 {
@@ -13,7 +13,7 @@ namespace AccessModifiersDemo
         static void Main(string[] args)
         {
 
-            //AccessModifiers projesinde tanýmlý olan "Course" classýný baþka bir proje olan AccessModifiersDemo' dan kullanmak istersek.
+            //AccessModifiers projesinde tanÃ½mlÃ½ olan "Course" classÃ½nÃ½ baÃ¾ka bir proje olan AccessModifiersDemo' dan kullanmak istersek.
             //AccessModifiersDemo -> References -> Add References -> AccessModifiers
             //using AccessModifiers;
             Course course = new Course();
