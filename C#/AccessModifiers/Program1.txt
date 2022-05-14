@@ -1,0 +1,53 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+//Example for internal vs public/ protected vs private.
+namespace AccessModifiers
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+        }
+
+    }
+
+    class Customer
+    {
+        protected int Id { get; set; }//Protected privateýn bütün özelliklerini kapsýyor.
+        //(private) access only from defined class. Protected dersek inheritance seviyesinde kullanabiliriz.
+        public void Save()
+        {
+
+
+        }
+
+        public void Delete()
+        {
+
+
+        }
+    }
+
+    class Student:Customer//inheritance
+    {
+        public void Save2()
+        {
+
+
+        }
+    }
+
+    //bir class ya public olabilir ya da internal olabilir. Class içinde baþka bir class private olabilir.
+    public class Course// internal type olmasaydý ClassManager classýn içinde kullanamazdýk. Proje içerisindeki diðer classlar tarafýndan kullanabilmesi için internal tanýmlanýr.
+    {
+        public string Name { get; set; }
+    }
+    // internal yazmak zorunlu deðildir.
+
+    //Farklý bir projeden (AccessModifiersDemo) almak istersek... bu class public tanýmlanmalý internal deðil.
+}
