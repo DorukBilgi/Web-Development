@@ -18,7 +18,7 @@ namespace AccessModifiers
 
     class Customer
     {
-        protected int Id { get; set; }//Protected privateın bütün özelliklerini kapsıyor.
+        protected int Id { get; set; }//Protected privateÄ±n bÃ¼tÃ¼n Ã¶zelliklerini kapsÄ±yor.
         //(private) access only from defined class. Protected dersek inheritance seviyesinde kullanabiliriz.
         public void Save()
         {
@@ -42,12 +42,12 @@ namespace AccessModifiers
         }
     }
 
-    //bir class ya public olabilir ya da internal olabilir. Class içinde başka bir class private olabilir.
-    public class Course// internal type olmasaydı ClassManager classın içinde kullanamazdık. Proje içerisindeki diğer classlar tarafından kullanabilmesi için internal tanımlanır.
+    //bir class ya public olabilir ya da internal olabilir. Class iÃ§inde baÅŸka bir class private olabilir.
+    public class Course// internal type olmasaydÄ± ClassManager classÄ±n iÃ§inde kullanamazdÄ±k. Proje iÃ§erisindeki diÄŸer classlar tarafÄ±ndan kullanabilmesi iÃ§in internal tanÄ±mlanÄ±r.
     {
         public string Name { get; set; }
     }
-    // internal yazmak zorunlu değildir.
+    // internal yazmak zorunlu deÄŸildir.
 
-    //Farklı bir projeden (AccessModifiersDemo) almak istersek... bu class public tanımlanmalı internal değil.
+    //FarklÄ± bir projeden (AccessModifiersDemo) almak istersek... bu class public tanÄ±mlanmalÄ± internal deÄŸil.
 }
