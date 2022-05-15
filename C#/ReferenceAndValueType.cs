@@ -18,10 +18,10 @@ namespace ReferenceAndValueType
             Console.WriteLine(number2); // Output: 10
 
             string[] cities1 = new string[]{"Ankara","Adana","Afyon"};  //101
-            string[] cities2 = new string[]{"Bursa","Bolu","Bal˝kesir"};//102
+            string[] cities2 = new string[]{"Bursa","Bolu","Bal√Ωkesir"};//102
             cities2 = cities1;//Delete 102 write 101. (Memory deallocation) in C# Garbage Collector.
-            cities1[0] = "›stanbul";
-            Console.WriteLine(cities2[0]); // Output: ›stanbul (passed-by-reference)
+            cities1[0] = "√ùstanbul";
+            Console.WriteLine(cities2[0]); // Output: √ùstanbul (passed-by-reference)
 
             // DataTable dataTable = new DataTable();
             DataTable dataTable; // unnecessary for typing "new"...
