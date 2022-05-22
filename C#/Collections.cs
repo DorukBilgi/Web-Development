@@ -11,10 +11,10 @@ namespace Collections
     {
         static void Main(string[] args)
         {
-            //string[] cities = new string[2]{"Ankara","›stanbul"};
+            //string[] cities = new string[2]{"Ankara","√ùstanbul"};
             ////cities[2] = "Adana";//Error: third element
             ////cities[1] = "Adana";//Second element.
-            // cities = new string[3];//"new" dedikten sonra iÁi bo˛ald˝.
+            // cities = new string[3];//"new" dedikten sonra i√ßi bo√æald√Ω.
             // Console.WriteLine(cities[0]);// Output: null.
 
             ArrayList();   //First write inside main then refactor -> extract -> extract method.
@@ -53,10 +53,10 @@ namespace Collections
 
         private static void List()
         {
-            //with type def. Tip g¸venli.
+            //with type def. Tip g√ºvenli.
             List<string> cities = new List<string>();
             cities.Add("Ankara");
-            cities.Add("›stanbul");
+            cities.Add("√ùstanbul");
 
             Console.WriteLine(cities.Contains("Ankara")); // If contains, output is true.
 
@@ -65,7 +65,7 @@ namespace Collections
                 Console.WriteLine(city);
             }
 
-            //with type def. Tip g¸venli from class.
+            //with type def. Tip g√ºvenli from class.
 
             //1.
             //List<Customer> customers = new List<Customer>();
@@ -121,11 +121,11 @@ namespace Collections
 
         private static void ArrayList()
         {
-            //without type def. Tip g¸venli deil.
+            //without type def. Tip g√ºvenli de√∞il.
             ArrayList cities = new ArrayList(); // Collections. You can add more elements to this non-sized array.
             cities.Add("Ankara");
             cities.Add("Adana");
-            cities.Add("›stanbul"); // Add 3rd element to array.
+            cities.Add("√ùstanbul"); // Add 3rd element to array.
             cities.Add(1); // Add 4th element to array.
             cities.Add('A'); // Add 5th element to array.
 
