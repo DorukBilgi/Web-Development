@@ -40,7 +40,7 @@ namespace Exceptions
            // throw new NotImplementedException(); // Comment or delete this.
            try
            {
-                action.Invoke(); //OurException'ý çalýþtýr.
+                action.Invoke(); //OurException'Ã½ Ã§alÃ½Ã¾tÃ½r.
            }
            catch (Exception exception)
            {
@@ -52,7 +52,7 @@ namespace Exceptions
         {
             List<string> students = new List<string> { "Doruk", "Burak", "Tan" };
 
-            if (!students.Contains("Ahmet")) // Ahmet yoksa hata fýrlat.
+            if (!students.Contains("Ahmet")) // Ahmet yoksa hata fÃ½rlat.
             {
                 throw new RecordNotFoundException("Record Not Found!!"); // Constructor sayesinde desired message given.
             }
@@ -69,17 +69,17 @@ namespace Exceptions
                 string[] students = new string[3] { "Doruk", "Burak", "Tan" };
                 students[3] = "Fatih";
             }
-            catch (IndexOutOfRangeException exception) //Hata yakalýyor.
+            catch (IndexOutOfRangeException exception) //Hata yakalÃ½yor.
             {
                 Console.WriteLine(exception.Message);
             }
-            catch (DivideByZeroException exception) //Hata yakalýyor.
+            catch (DivideByZeroException exception) //Hata yakalÃ½yor.
             {
                 Console.WriteLine(exception.Message);
             }
-            catch (Exception exception) //Hata yakalýyor.
+            catch (Exception exception) //Hata yakalÃ½yor.
             {
-                Console.WriteLine(exception.Message); //try bloðunun neden çalýþmadýðýný çýkýþ olarak veriyor.
+                Console.WriteLine(exception.Message); //try bloÃ°unun neden Ã§alÃ½Ã¾madÃ½Ã°Ã½nÃ½ Ã§Ã½kÃ½Ã¾ olarak veriyor.
             }
         }
     }
